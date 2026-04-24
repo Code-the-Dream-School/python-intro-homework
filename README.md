@@ -22,7 +22,7 @@ python-intro-homework/
       ...
 ```
 
-Each week's `data/` folder contains any files your assignments need — CSVs, text files, and other resources. **Do not edit files in `data/`.** Your work lives in your `assignment-[#]` folder.
+Each week's `data/` folder contains any files your assignments need — CSVs, text files, and other resources. **Do not edit files in `data/`.** Your work lives in your `assignment-[#]` folder. Blank folders have a `.gitkeep` — don't worry about deleting this, it's just a placeholder.
 
 ## Your Workflow Each Week
 
