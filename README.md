@@ -52,3 +52,5 @@ Each week's `data/` folder contains any files your assignments need — CSVs, te
 ## What to Submit
 
 Your pull request should contain only your `.py` files and any output files your programs generate (like `food_report.txt`). It should not include changes to files in `data/`.
+
+The PR URL should look like `github.com/your-username/python-intro-homework/pull/[number]`, *not the link to your repo homepage*.
