@@ -1,0 +1,4 @@
+Python is great for working with files.
+You can read, write, and append text.
+The 'with' statement keeps things clean.
+Always close your files when you're done.
