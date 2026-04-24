@@ -1,0 +1,74 @@
+[
+  {
+    "name": { "common": "Germany", "official": "Federal Republic of Germany" },
+    "capital": ["Berlin"],
+    "region": "Europe",
+    "population": 83240525
+  },
+  {
+    "name": { "common": "Japan", "official": "Japan" },
+    "capital": ["Tokyo"],
+    "region": "Asia",
+    "population": 125681593
+  },
+  {
+    "name": { "common": "Brazil", "official": "Federative Republic of Brazil" },
+    "capital": ["Brasília"],
+    "region": "Americas",
+    "population": 212559409
+  },
+  {
+    "name": { "common": "Nigeria", "official": "Federal Republic of Nigeria" },
+    "capital": ["Abuja"],
+    "region": "Africa",
+    "population": 206139587
+  },
+  {
+    "name": { "common": "Canada", "official": "Canada" },
+    "capital": ["Ottawa"],
+    "region": "Americas",
+    "population": 38005238
+  },
+  {
+    "name": { "common": "India", "official": "Republic of India" },
+    "capital": ["New Delhi"],
+    "region": "Asia",
+    "population": 1380004385
+  },
+  {
+    "name": { "common": "France", "official": "French Republic" },
+    "capital": ["Paris"],
+    "region": "Europe",
+    "population": 67391582
+  },
+  {
+    "name": { "common": "Kenya", "official": "Republic of Kenya" },
+    "capital": ["Nairobi"],
+    "region": "Africa",
+    "population": 53771300
+  },
+  {
+    "name": { "common": "Antarctica", "official": "Antarctica" },
+    "capital": [],
+    "region": "Antarctic",
+    "population": 1000
+  },
+  {
+    "name": { "common": "Australia", "official": "Commonwealth of Australia" },
+    "capital": ["Canberra"],
+    "region": "Oceania",
+    "population": 25687041
+  },
+  {
+    "name": { "common": "Mexico", "official": "United Mexican States" },
+    "capital": ["Mexico City"],
+    "region": "Americas",
+    "population": 128932753
+  },
+  {
+    "name": { "common": "South Korea", "official": "Republic of Korea" },
+    "capital": ["Seoul"],
+    "region": "Asia",
+    "population": 51780579
+  }
+]
