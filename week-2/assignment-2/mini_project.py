@@ -1,8 +1,8 @@
-fahrenheit = int(input("Enter a temperature in Fahrenheit:"))
+fahrenheit = float(input("Enter a temperature in Fahrenheit:"))
 
-celcius = round(fahrenheit - 32) * 5 / 9
+celcius = (fahrenheit - 32) * 5 / 9
 
-print(f'{fahrenheit} is {celcius:.1f}C.')
+print(f'{fahrenheit:.1f}°F is {celcius:.1f}°C.')
 
 
            
