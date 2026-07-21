@@ -1,14 +1,16 @@
-name = input('what is your name? ')
-print(f'Your name is {name}')
 
-#File "c:\Users\genes\python_class\working\python-intro-homework\week-2\assignment-2\warmup4.py", line 2, in <module>
-  #  print(f'Your name is {naame}')
-           #               ^^^^^
-#NameError: name 'naame' is not defined. Did you mean: 'name'?
+''' 1. What the error message said:
+   NameError: name 'naame' is not defined. Did you mean: 'name'?
 
-#My error was first I wrote the wrong varible name on line 5 
-# My second error was I didnt write input in line 1 so the user is not 
-# able to even type their own name
+2. What caused it:
+   I misspelled the variable name as 'naame' inside the print statement 
+   and forgot to include input() on line 1, so Python didn't know what 'naame' was.
 
-#I fixed my error by correct my variable name and including the word input on line 1
+3. How I fixed it:
+   I added input() to line 1 to capture the user's input and corrected 
+   the spelling of the variable to 'name' in the print statement.'''
 
+# Fixed, working code:
+
+name = input("What is your name? ")
+print(f"Your name is {name}.")
