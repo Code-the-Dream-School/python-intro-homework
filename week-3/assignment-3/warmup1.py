@@ -1,14 +1,19 @@
 score = 100
 if score >= 90:
-    print('A')
+    grade = 'A'
 elif score >= 80:
-        print('B')
+        grade = 'B'
 elif score >= 70:
-        print('C')
+        grade = 'C'
 elif score >= 60:
-        print('D')
+        grade = 'D'
 else: 
-    print('F')
+    grade = 'F'
+
+print(f'Score: {score}')
+print(f'Grade: {grade}')
+
+    
 
 
         
