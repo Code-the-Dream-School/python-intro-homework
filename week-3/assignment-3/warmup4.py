@@ -7,9 +7,10 @@ elif number < 0:
 else:
     print(f'{number} is zero. ')
 
+
+
 if number % 2 == 0:
     print(f'{number} is even. ')
 
 else: 
     print(f'{number} is odd.')
-    
