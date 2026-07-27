@@ -1,4 +1,4 @@
-# Warmup 2 - Age Categories
+# Warmup2.py age 
 
 age = int(input("Enter your age: "))
 

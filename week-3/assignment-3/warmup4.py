@@ -1,5 +1,3 @@
-# Warmup 4 - Sign and Parity
-
 number = int(input("Enter a number: "))
 
 # Check sign
