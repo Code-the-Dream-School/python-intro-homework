@@ -1,6 +1,6 @@
 number = int(input("Enter a number: "))
 
-# Check sign
+# Sign check
 if number > 0:
     print(f"{number} is positive.")
 elif number < 0:
@@ -8,7 +8,7 @@ elif number < 0:
 else:
     print(f"{number} is zero.")
 
-# Check parity
+# Parity check
 if number % 2 == 0:
     print(f"{number} is even.")
 else:
