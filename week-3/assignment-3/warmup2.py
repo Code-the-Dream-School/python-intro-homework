@@ -12,4 +12,6 @@ elif age>=18 and age<=64:
 elif age>=65:
     #print(f"Your age is {age}.")
     print("You are a Senior.")
+else:
+    print("Invalid number, please enter a valid number.")
 
