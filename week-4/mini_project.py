@@ -24,7 +24,7 @@ total = 0
 for student in students:
     total+= student["score"]
 average = total / len(students)
-print(f"Class average: {average}")   # Output: Class average: 85.5
+print(f"Class average: {average:.1f}")   # Output: Class average: 85.5
 
 #List all unique subjects
 

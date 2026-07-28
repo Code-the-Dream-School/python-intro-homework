@@ -3,7 +3,7 @@
 students = {
     "name": "Khalilah",
     "grade": "A",
-    "subjects": ["English, Math, Computer Science"]
+    "subjects": ["English", "Math", "Computer Science"]
 }
 for key, value in students.items():
     print(f"{key}: {value}")
