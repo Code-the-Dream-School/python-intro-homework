@@ -37,7 +37,7 @@ print(f"Subjects offered: {subjects}")
 #List High Scorers with score over 75
 high_scorers = []
 for student in students:
-    if student["score"] >=75:
+    if student["score"] >75:
         high_scorers.append(student["name"])
 
 print(f"High scorers: {high_scorers}")

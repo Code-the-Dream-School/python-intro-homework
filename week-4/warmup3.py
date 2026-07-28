@@ -8,7 +8,6 @@ language_list1_set1 = set(language_list1)
 language_list1_set2 = set(language_list2)
 
 #print language sets
-
 print(language_list1_set1 | language_list1_set2) # Union: All languages from both lists, no duplicates
 print(language_list1_set1 & language_list1_set2) # Intersection: Languages in both lists
-print(language_list1_set1 - language_list1_set2) # Difference: Languges only in the first list
+print(language_list1_set1 - language_list1_set2) # Difference: Languages only in the first list

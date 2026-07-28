@@ -3,12 +3,12 @@
 students = {
     "name": "Khalilah",
     "grade": "A",
-    "subjects": {"English, Math, Computer Science"}
+    "subjects": ["English, Math, Computer Science"]
 }
-for student in students.values():
-    print(student)
+for key, value in students.items():
+    print(f"{key}: {value}")
 
-students["graduated"] ="False"
+students["graduated"] = False
 
-for student in students.values():
-    print(student)
+for key, value in students.items():
+    print(f"{key}: {value}")
