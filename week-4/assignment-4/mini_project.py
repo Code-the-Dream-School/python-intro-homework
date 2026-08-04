@@ -16,7 +16,7 @@ subject = set()
 high_scorers = []
 
 for student in students:
-    if student["score"] >= 92:
+    if student["score"] > highest_score:
         highest_score = student["score"]
         top_scorer_name = student["name"]
 
