@@ -23,7 +23,7 @@ def search(data, user):
             print (new_i)
             found=True
     if found==False:   
-        print ("Not Found")
+        print ("not found")
 
 def sorting (data):
     n=len(data)

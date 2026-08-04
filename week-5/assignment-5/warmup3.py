@@ -7,7 +7,7 @@ for n in range (len(names)):
         index=n
         break
 if index!=-1:
-    print (f'Found {user} at {index}.')
+    print (f'Found {user} at index {index}.')
 else:
     print (f'"{user}" was not found in the list.')
 
