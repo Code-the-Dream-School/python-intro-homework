@@ -25,7 +25,7 @@ while True:
     #Find Maximum
     elif option == 2:
 
-        max_number = 0
+        max_number = numbers[0]
         for number in numbers:
             if number > max_number:
                 max_number = number

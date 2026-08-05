@@ -22,7 +22,7 @@ names = [
     "Elian"
 ]
 #User input the name to be searched
-username = input("Enter a name to search for: ").capitalize()
+username = input("Enter a name to search for: ")
 found = False
 
 for i, name in enumerate(names):
@@ -31,7 +31,7 @@ for i, name in enumerate(names):
         break
 
 if found: 
-    print(f"Found {username} at index {i}.")
+    print(f'Found "{username}" at index {i}.')
 
 else:
-    print (f"{username} was not found in the list.")
+    print (f'"{username}" was not found in the list.')
