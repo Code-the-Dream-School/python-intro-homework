@@ -52,13 +52,20 @@ while True:
     #Sort the List
     elif option == 4:
 
-        n = len(numbers)
+        swapped = True
 
-        for index in range(n-1):
-            for j in range(n-index-1):
-                if numbers[j] > numbers[j+1]:
-                    numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
-        print(numbers)        
+        while swapped: 
+            swapped = False
+
+            n = len(numbers)
+
+            for index in range(n-1):
+                    if numbers[index] > numbers[index + 1]:
+                        numbers[index], numbers[index + 1 ] = numbers[index+ 1], numbers[index]
+
+                    swapped = True  
+
+            print(f"Sorted list: {numbers}")        
 
     #Quit Loop
     elif option == 5:

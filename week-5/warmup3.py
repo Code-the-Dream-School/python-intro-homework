@@ -18,7 +18,7 @@ names = [
     "Mia",
     "Isabella",
     "Evelyn",
-    "Sofia",
+    "Ava",
     "Elian"
 ]
 #User input the name to be searched
