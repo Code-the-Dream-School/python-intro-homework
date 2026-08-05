@@ -61,13 +61,14 @@ while True:
 
             for index in range(n-1):
                     if numbers[index] > numbers[index + 1]:
-                        numbers[index], numbers[index + 1 ] = numbers[index+ 1], numbers[index]
+                        numbers[index], numbers[index + 1 ] = (numbers[index+ 1], numbers[index])
 
-                    swapped = True  
+                        swapped = True 
 
-            print(f"Sorted list: {numbers}")        
+        print(f"Sorted list: {numbers}")        
 
     #Quit Loop
+
     elif option == 5:
         print("Quitting Number Cruncher")
         break
