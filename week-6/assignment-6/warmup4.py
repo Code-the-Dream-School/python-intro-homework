@@ -1,13 +1,17 @@
 def is_valid_score(score):
-    if score >= 0 and score <=100:
+    if isinstance(score, int) and score >= 0 and score <=100:
         return True
     else:
         return False
 
-score_input = int(input("Enter a score: "))
+score_input = input("Enter a score: ")
 
-score_result = is_valid_score(score_input)
-
+if score_input.isdigit():
+    score_input = int(score_input)
+    score_result = is_valid_score(score_input)
+else:
+    score_result = False
+    
 if score_result == True:
 
     print("Valid score.")
