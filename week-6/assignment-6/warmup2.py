@@ -8,6 +8,6 @@ def fahrenheit_to_celsius(f):
     return celsius
     #print(f"{f}\xb0F = {celsius}\xb0C")
 
-print(f"0\xb0C to {celsius_to_fahrenheit(0)}\xb0F")
-print(f"100\xb0C to {celsius_to_fahrenheit(100)}\xb0F")
-print(f"72\xb0C to {fahrenheit_to_celsius(72)}\xb0F")
+print(f"0\xb0C = {celsius_to_fahrenheit(0)}\xb0F")
+print(f"100\xb0C = {celsius_to_fahrenheit(100)}\xb0F")
+print(f"72\xb0C = {fahrenheit_to_celsius(72)}\xb0C")
