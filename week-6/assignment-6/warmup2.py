@@ -10,4 +10,4 @@ def fahrenheit_to_celsius(f):
 
 print(f"0\xb0C = {celsius_to_fahrenheit(0)}\xb0F")
 print(f"100\xb0C = {celsius_to_fahrenheit(100)}\xb0F")
-print(f"72\xb0C = {fahrenheit_to_celsius(72)}\xb0C")
+print(f"72\xb0F = {fahrenheit_to_celsius(72)}\xb0C")
