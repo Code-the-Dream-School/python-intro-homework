@@ -13,4 +13,4 @@ if score_result == True:
     print("Valid score.")
 
 else:
-    print("Invalid score - must be between 0 and 100.")
+    print("Invalid score \u2014 must be between 0 and 100.")
