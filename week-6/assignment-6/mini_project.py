@@ -65,7 +65,7 @@ def bubble_sort(numbers):
 
                     swapped = True 
 
-    return numbers   
+    return sorted_numbers  
 
 #Quit Loop
 def quit_loop():
