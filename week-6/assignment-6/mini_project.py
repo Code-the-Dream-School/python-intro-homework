@@ -94,7 +94,7 @@ def main():
 
         elif result == "4":
             sorted_list_result = bubble_sort(numbers)
-            print(f"Sorted list: {sorted_list_result}.")
+            print(f"Sorted list: {sorted_list_result}")
 
         elif result == "5":
             quit_loop()
