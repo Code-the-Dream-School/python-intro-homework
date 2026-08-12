@@ -35,19 +35,13 @@ def find_max(numbers):
     return max_number
 
 #Search for a number
-def search(numbers):
+def search(numbers, target):
+    for i in range(len(numbers)):
+        if numbers[i] == target:
+            return i
+    return -1
 
-    target = int(input("Enter a number: "))
 
-    def linear_search(data, target):
-        for i in range(len(data)):
-            if data[i] == target:
-                return i
-        return -1
-
-    result = linear_search(numbers, target)
-
-    return result
 
 #Sort the List
 def bubble_sort(numbers):
@@ -78,14 +72,16 @@ def main():
         result = show_menu()
         if result == "1":
             min_number_result = find_min(numbers)
-            print(f"The mininum number is {min_number_result}.")
+            print(f"The minimum number is {min_number_result}.")
 
         elif result == "2":
             max_number_result = find_max(numbers)
             print(f"The maximum number is {max_number_result}.")
 
         elif result == "3":
-            search_number_result = search(numbers)
+            target = int(input("Enter a number: "))
+            search_number_result = search(numbers, target)
+
             if search_number_result != -1:
                 print(f"Found at index {search_number_result}.")
 
