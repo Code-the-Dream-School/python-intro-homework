@@ -4,7 +4,13 @@ def is_valid_score(score):
     elif score<0 or score>100:
         return False
 
-user=int(input("Type your score (0-100): "))
+    
+try:
+    user=int(input("Type your score (0-100): "))
+except ValueError:
+    print ("Not an integer.")
+    user=int(input("Type your score (0-100): "))
+
 
 ans=is_valid_score(user)
 if ans:

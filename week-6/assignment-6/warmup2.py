@@ -8,5 +8,5 @@ def fahrenheit_to_celsius(f):
 gr=0
 # celsius_to_fahrenheit(gr)
 print (f'{gr}°C = {celsius_to_fahrenheit(gr)}°F')
-print (celsius_to_fahrenheit(100))
-print(fahrenheit_to_celsius(72))
+print (f'{gr}°C = {celsius_to_fahrenheit(100)}°F')
+print (f'{gr}°C = {celsius_to_fahrenheit(72)}°F')
