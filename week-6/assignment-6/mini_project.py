@@ -11,7 +11,7 @@ def show_menu():
     print("5. Quit")
     print("")
 
-    option = int(input("Choose an option (1-5):"))
+    option = input("Choose an option (1-5):")
     return option
 
 #Find Minimum Function
@@ -51,21 +51,21 @@ def search(numbers):
 
 #Sort the List
 def bubble_sort(numbers):
+    sorted_numbers = numbers.copy()
+    swapped = True
 
-        swapped = True
+    while swapped: 
+        swapped = False
 
-        while swapped: 
-            swapped = False
+        n = len(sorted_numbers)
 
-            n = len(numbers)
+        for index in range(n-1):
+                if sorted_numbers[index] > sorted_numbers[index + 1]:
+                    sorted_numbers[index], sorted_numbers[index + 1 ] = (sorted_numbers[index+ 1], sorted_numbers[index])
 
-            for index in range(n-1):
-                    if numbers[index] > numbers[index + 1]:
-                        numbers[index], numbers[index + 1 ] = (numbers[index+ 1], numbers[index])
+                    swapped = True 
 
-                        swapped = True 
-
-        return numbers   
+    return numbers   
 
 #Quit Loop
 def quit_loop():
@@ -76,15 +76,15 @@ def quit_loop():
 def main():
     while True: 
         result = show_menu()
-        if result == 1:
+        if result == "1":
             min_number_result = find_min(numbers)
             print(f"The mininum number is {min_number_result}.")
 
-        elif result == 2:
+        elif result == "2":
             max_number_result = find_max(numbers)
-            print(f"The mininum number is {max_number_result}.")
+            print(f"The maximum number is {max_number_result}.")
 
-        elif result == 3:
+        elif result == "3":
             search_number_result = search(numbers)
             if search_number_result != -1:
                 print(f"Found at index {search_number_result}.")
@@ -92,11 +92,11 @@ def main():
             elif search_number_result == -1:
                 print("Not found")
 
-        elif result == 4:
+        elif result == "4":
             sorted_list_result = bubble_sort(numbers)
             print(f"Sorted list: {sorted_list_result}.")
 
-        elif result == 5:
+        elif result == "5":
             quit_loop()
             break
 
