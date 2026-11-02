@@ -1,7 +1,8 @@
-def linear_search(data,target):
-    for i in range(len(data)):
-        if data[i] == target:
-            return i
+def name_search(nmlst,target):
+    for i in range(len(nmlst)):
+        if nmlst[i] == target:
+            return i + 1
+        
     return -1
 
 # Only used AI to develop this long list of names so that I can start with it. my prompt was "Create an A–Z name list with exactly 5 male names and 5 female names for every letter of the English alphabet. For each letter, list the 5 male names first, followed by the 5 female names. Output only the names as a single comma-separated line. Enclose every name in double quotation marks. Do not include letter headings, numbering, categories, explanations, code fences, line breaks, or any text other than the quoted names. Order all names alphabetically by letter from A through Z."
@@ -11,13 +12,15 @@ names = ["Aaron", "Aiden", "Adrian", "Andrew", "Alexander", "Abigail", "Ava", "A
 target = str(input("Enter your first name: "))
 found = False
 
+
 for name in names:
     if name == target:
         found = True
         break
 
 if found == True:
-    print(f"Congraulations, your name {target} is in our database!")
+    result = name_search(names, target)
+    print(f"Congraulations, your name {target} is in postion {result} in our database!")
 else:
     addname = bool(input("Wow, what a beautiful name! Unfortunately, it isn't in our database, would you like to add it(True or False): "))
     if addname == True:
@@ -26,7 +29,7 @@ else:
         print(f"Congraulations, You have successfully added your name {target} to our database!")
         position = bool(input("Would you like to know your place in the database?(True or False): "))
         if position == True:
-            result = linear_search(names, newname)
+            result = name_search(names, newname)
             print(result) 
         else:
             print(f"Thank you for adding your name {target} to our database, have a good day.")
