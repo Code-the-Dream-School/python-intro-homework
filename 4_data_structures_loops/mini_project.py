@@ -9,13 +9,6 @@ students = [
     {"name": "Eli",     "score": 79, "subject": "Data"},
 ]
 
-#high scorers
-high_scorers = []
-for person in students:
-    if person["score"] >75:
-        high_scorers.append(person["name"])
-print(f"High Scorers: {high_scorers}")
-
 #highest scorer
 highest_score = 75
 top_student =""
@@ -26,6 +19,16 @@ for person in students:
         top_student = person["name"]
 
 print(f"Top Student: {top_student}")
+
+
+#high scorers
+high_scorers = []
+for person in students:
+    if person["score"] >75:
+        high_scorers.append(person["name"])
+print(f"High Scorers: {high_scorers}")
+
+
 
 
 #class average
