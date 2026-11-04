@@ -18,7 +18,7 @@ for person in students:
         highest_score = person["score"]
         top_student = person["name"]
 
-print(f"Top Student: {top_student}")
+print(f"Top Student: {top_student} with a score of {highest_score}")
 
 
 #high scorers
