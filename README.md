@@ -1,5 +1,28 @@
 # python-intro-homework
 
+## Python Programming Portfolio
+
+Practical programming exercises developed as part of
+Code the Dream's Python Intro program (2026).
+
+### Selected Projects
+
+| Project | Skills | Code |
+|---|---|---|
+| Assignment 3 | Conditionals and control flow | [View](https://github.com/studiesval/python-intro-homework/tree/assignment-3/week-3/assignment-3) |
+| Assignment 4 | Data structures and loops | [View](https://github.com/studiesval/python-intro-homework/tree/assignment-4/week-4/assignment-4) |
+| Assignment 5 | Search and sorting algorithms | [View](https://github.com/studiesval/python-intro-homework/tree/assignment-5/week-5/assignment-5) |
+| Assignment 6 | Functions and modular programming | [View](https://github.com/studiesval/python-intro-homework/tree/assignment-6/week-6/assignment-6) |
+
+**Status:** Training in progress. Some assignments
+are awaiting review.
+
+The exercises are available in their respective
+Git branches. The main branch follows the
+course's submission workflow.
+
+---
+
 This is your homework repository for the Python Intro course. Each week you'll add your assignment here alongside starter data files provided by the course.
 
 ## Repository Structure
