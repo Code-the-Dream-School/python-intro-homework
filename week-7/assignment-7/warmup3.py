@@ -1,8 +1,13 @@
+
 import os
 
-current_directory = os.getcwd()
-print("Current directory:", current_directory)
-file_exists = os.path.exists("week-7/data/notes.txt")
-print("Does notes.txt exist?", file_exists)
-file_path = os.path.join("week-7", "data", "notes.txt")
+print("Current directory:", os.getcwd())
+
+file_path = os.path.join("week-7", "data", "expenses.csv")
+
+if os.path.exists(file_path):
+    print("expenses.csv found.")
+else:
+    print("expenses.csv not found.")
+
 print("File path:", file_path)
